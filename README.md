@@ -33,7 +33,7 @@
 ![Image](useless/3.png)
 
 ## 注意
-- 第一次运行脚本，mohomo程序会下载一些数据到CFGDIR中，脚本看不到执行的结果，推荐运行完成脚本后执行下面的命令观察mihomo执行情况。
+- 第一次运行脚本，mohomo程序会下载一些数据到CFGDIR中，脚本看不到执行的结果，推荐运行完成脚本后执行下面的命令，手动启动mihomo来观察执行情况。
 ```
 BIN=xxx
 CFGFILE=xxx.yaml
@@ -46,4 +46,5 @@ $BIN -f "$CFGFILE" -d "$CFGDIR"
 - 节点解析的逻辑没有完整的验证过，可能存在BUG。
 
 ## 参考
-[SubConv](https://github.com/SubConv/SubConv)
+- [SubConv](https://github.com/SubConv/SubConv)
+- [ssr-decode](https://github.com/xlucn/ssr-decode)
