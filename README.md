@@ -1,7 +1,7 @@
 # mihomo-auto
-- mihomo(clash)订阅转换脚本(c.sh)
+- mihomo(clash)订阅转换脚本(c.sh)，支持将各种节点转换成mihono的配置文件。
 - 支持解析各种订阅链接(http/https)，支持解析ss/ssr/vmess/trojan/vless/hysteria/hysteria2节点，并且可以融合多个订阅链接的节点数据。
-- 脚本解析出节点信息后，将节点插入到yaml模板文件中以生成mihono的配置文件，然后启动mihomo。
+- 脚本解析出节点信息后，将节点插入到yaml模板文件中以生成配置文件，然后启动mihomo。
 - 本脚本在padavan(hiboy)和armbian(bullseye)环境下测试运行OK。
 
 ## 依赖程序
@@ -41,7 +41,7 @@ CFGDIR=/xxx/yyy
 killall "${BIN##*/}"
 $BIN -f "$CFGFILE" -d "$CFGDIR"
 ```
-- 脚本执行时间可能比较长，特别是节点数目多时。
+- 脚本执行时间可能比较长，特别是节点数目较多时。
 - 如果节点的名称存在重复，脚本会去重处理，而不是重命名。
 - 节点解析的逻辑没有完整的验证过，可能存在BUG。
 
