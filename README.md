@@ -21,7 +21,7 @@
 | TEMPLATE | YAML配置文件的模板 |
 | CFGFILE | 最终生成的YAML配置文件 |
 | CFGDIR | mihomo的配置文件目录，（mihomo默认的配置目录是~/.config/mihomo/） |
-| BIN | mihomo的路径，如何放在PATH的目录下，可以mihomo的名称 |
+| BIN | mihomo的路径，如果放在PATH的目录下，可以直接用mihomo的名称 |
 | LOCKFILE | flock的锁文件，不需要修改 |
 
 - 按照自己的喜好修改ts.yaml的配置。
