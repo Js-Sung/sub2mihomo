@@ -1,6 +1,6 @@
 # sub2mihomo
-- mihomo(clash)订阅转换脚本(c.sh)，支持将各种节点转换成mihono的配置文件。
-- 支持解析各种订阅链接(http/https)，支持解析ss/ssr/vmess/trojan/vless/hysteria/hysteria2节点，并且可以融合多个订阅链接的节点数据。
+- mihomo(clash)订阅转换脚本(c.sh)，支持将各种节点订阅转换成mihono的配置文件。
+- 支持解析各种订阅链接，支持解析ss/ssr/vmess/trojan/vless/hysteria/hysteria2节点，并且可以融合多个订阅链接的节点数据。
 - 脚本解析出节点信息后，将节点插入到yaml模板文件中以生成配置文件，然后启动mihomo。
 - 本脚本在padavan(hiboy)和armbian(bullseye)环境下测试运行OK。
 
